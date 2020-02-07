@@ -1,0 +1,83 @@
+/* Andrew Folkerts
+    Created 2/6/20
+    Version: 1.0*/
+.headingBox {
+  height: 80px;
+  width: 100%;
+  background-color: #000;
+  color: #fb8c00;
+  text-align: center;
+  position: fixed;
+}
+
+.navLink {
+  height: 200px;
+  width: 200px;
+  color: white;
+  position: fixed;
+  left: 200px;
+}
+
+.logoBox {
+  z-index: 1000;
+  height: 95px;
+  width: 95px;
+  background-color: #ffb81c;
+  border-radius: 90px;
+  position: fixed;
+  top: 10px;
+  left: 50px;
+}
+.headingBox > p {
+  color: #ffb81c;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+p {
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+
+.firstRowBox {
+  width: 30%;
+  height: 150px;
+  background-color: tomato;
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.secondRowBox {
+  height: 150px;
+  width: 403px;
+  background-color: #1b5e20;
+  float: left;
+  margin: 10px;
+  text-align: center;
+}
+
+.ThirdRowBox {
+  height: 400px;
+  width: 403px;
+  background-color: #455a64;
+  margin: 10px;
+  clear: left;
+}
+.chatBox {
+  height: 95px;
+  width: 95px;
+  border-radius: 90px;
+  background-color: #ffb81c;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+footer {
+  height: 75px;
+  border-top: solid 5px #000;
+}
